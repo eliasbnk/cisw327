@@ -66,5 +66,7 @@ img {
 }
 
 #schedulehero {
-  width: 97%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
