@@ -1,0 +1,15 @@
+{
+  "name": "cisw327",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier --write . && eslint --quiet --fix"
+  },
+  "dependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
