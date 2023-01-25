@@ -1,0 +1,142 @@
+/* Ilya B - w1793796 - 12/09/2022  */
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #556052;
+  color: #f3f0eb;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Main navigation CSS */
+.nav {
+  width: 100%;
+  overflow: auto;
+  background-color: #dfb78c;
+}
+
+.nav a {
+  float: left;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 33.33%;
+  text-align: center;
+  color: #af6b58;
+}
+
+body .nav a:hover {
+  background-color: #f2efea;
+  color: #af6b58;
+}
+
+.nav a:visited {
+  color: #589caf;
+}
+.active {
+  background-color: #ab6832;
+}
+
+a.active {
+  color: #f2efea;
+}
+
+body a:hover {
+  color: #ab6832;
+}
+
+a:visited {
+  color: #589caf;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 65%;
+  text-align: center;
+}
+
+.right {
+  width: 35%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.bg-image h1 {
+  margin-left: 160px;
+  margin-top: 60px;
+}
+
+.bg-image {
+  background: url('./coffee-logo.png') center center transparent;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  float: left;
+  height: 150px;
+  width: 150px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  max-width: 960px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f2efea;
+}
+
+a {
+  color: #f3f0eb;
+  text-decoration: none;
+}
+
+li span {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+li img {
+  border-radius: 50%;
+  height: 100px;
+}
+li {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.centimg {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
